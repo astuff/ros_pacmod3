@@ -2,6 +2,16 @@
 Changelog for package pacmod3
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.3.1 (2020-01-31)
+------------------
+* Added missing dependency to package.xml.
+* Contributors: Joshua Whitley
+
+1.3.0 (2020-01-27)
+------------------
+* Ported to ROS2 Dashing
+* Contributors: Joshua Whitley
+
 1.2.1 (2018-12-07)
 ------------------
 * Merge pull request `#43 <https://github.com/astuff/pacmod3/issues/43>`_ from astuff/maint/add_urls

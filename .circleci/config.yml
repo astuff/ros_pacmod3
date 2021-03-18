@@ -8,7 +8,7 @@ jobs:
       - run:
           name: Set Up Container
           command: |
-            apt-add-repository -y ppa:jwhitleyastuff/kvaser-linux
+            apt-add-repository -y ppa:astuff/kvaser-linux
             apt-get update -qq && apt-get install -qq dpkg kvaser-canlib-dev
             mkdir $CIRCLE_PROJECT_REPONAME
             mv `find -maxdepth 1 -not -name . -not -name $CIRCLE_PROJECT_REPONAME` $CIRCLE_PROJECT_REPONAME/

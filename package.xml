@@ -2,7 +2,7 @@
 <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
   <name>pacmod3</name>
-  <version>1.2.1</version>
+  <version>1.3.1</version>
   <description>AutonomouStuff PACMod v3 Driver Package</description>
   <maintainer email="software@autonomoustuff.com">AutonomouStuff Software Team</maintainer>
   <license>MIT</license>
@@ -19,6 +19,7 @@
   <depend>pacmod_msgs</depend>
   <depend>rclcpp</depend>
   <depend>rclcpp_components</depend>
+  <depend>rclcpp_lifecycle</depend>
   <depend>std_msgs</depend>
 
   <test_depend>ament_lint_auto</test_depend>
